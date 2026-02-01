@@ -79,20 +79,32 @@ Streamlit Dashboard
 ```
 AI-Traffic-Violation-Detector/
 │
-├── config.py
-├── detection.py
-├── tracking.py
-├── violations.py
-├── evidence.py
-├── main.py
-├── dashboard.py
-├── requirements.txt
-├── README.md
-├── models/
-├── evidence/
-│   ├── images/
-│   └── clips/
-└── logs/
+├── config.py                # Global configuration settings
+├── detection.py             # YOLOv8-based object detection logic
+├── tracking.py              # DeepSORT-based vehicle & rider tracking
+├── violations.py            # Traffic violation detection rules
+├── evidence.py              # Evidence generation & management
+├── main.py                  # Main application for live/video detection
+├── dashboard.py             # Streamlit dashboard for visualization
+├── requirements.txt         # Python dependencies
+├── README.md                # Project documentation
+├── .gitignore               # Git ignore rules
+│
+├── models/                  # Pre-trained deep learning models
+│   └── yolov8n.pt            # YOLOv8 Nano weights
+│
+├── screenshots/             # Documentation screenshots (README)
+│   ├── dashboard_overview.png
+│   ├── violation_details.png
+│   └── live_detection.png
+│
+├── evidence/                # Generated runtime evidence
+│   ├── images/              # Captured violation images
+│   └── clips/               # Video clips of violations
+│
+└── logs/                    # Application logs
+    └── traffic_detector.log
+
 ```
 
 ---
@@ -162,6 +174,19 @@ http://localhost:8501
 - Violation metadata display
 - Filters and statistics
 - CSV report export
+
+---
+
+📸 Screenshots
+
+### 🖥️ Dashboard Overview
+![Dashboard Overview](screenshots/dashboard_overview.png)
+
+### 🚦 Violation Details
+![Violation Details](screenshots/violation_details.png)
+
+### 🎥 Live Detection
+![Live Detection](screenshots/live_detection.png)
 
 ---
 
