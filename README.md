@@ -2,7 +2,7 @@
 ![YOLOv8](https://img.shields.io/badge/YOLOv8-Ultralytics-green)
 ![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-red)
 ![License](https://img.shields.io/badge/License-Academic-lightgrey)
-![GitHub repo size](https://img.shields.io/github/repo-size/mekalakarthik05/AI-Traffic-Violation-Detector)
+
 ---
 #🚦 **AI Traffic Violation Detector**
 
