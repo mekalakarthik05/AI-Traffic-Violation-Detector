@@ -1,4 +1,9 @@
-# 🚦 **AI Traffic Violation Detector**
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
+![YOLOv8](https://img.shields.io/badge/YOLOv8-Ultralytics-green)
+![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-red)
+![License](https://img.shields.io/badge/License-Academic-lightgrey)
+![GitHub repo size](https://img.shields.io/github/repo-size/mekalakarthik05/AI-Traffic-Violation-Detector)
+#🚦 **AI Traffic Violation Detector**
 
 An **AI-based Traffic Violation Detection System** that uses **Computer Vision and Deep Learning** to automatically detect traffic rule violations from video streams and present them through an interactive **Streamlit dashboard** with visual evidence.
 
