@@ -1,0 +1,18 @@
+# Virtual environment
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Logs
+logs/
+*.log
+
+# Evidence files (large data)
+evidence/images/*
+evidence/clips/*
+
+# OS files
+.DS_Store
+Thumbs.db
